@@ -1,0 +1,22 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# C# files
+[*.cs]
+
+#### Core EditorConfig Options ####
+
+# Severities
+dotnet_diagnostic.RCS1037.severity = none
+
+# Indentation and spacing
+indent_size = 4
+indent_style = tab
+tab_width = 4
+trim_trailing_whitespace = false
+
+# New line preferences
+insert_final_newline = true
+
+# IDE0160: Convert to file-scoped namespace
+csharp_style_namespace_declarations = file_scoped:warning
